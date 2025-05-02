@@ -1,0 +1,1082 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Core Meta -->
+    <title>Anant Bhardwaj /// Portfolio</title> <!-- Simplified Title -->
+    <meta name="description" content="[anxntbhardwaj] - Explore the portfolio of Anant Bhardwaj, a CSE student focused on software development, cybersecurity, and creative tech."> <!-- More concise description -->
+    <meta name="keywords" content="Anant Bhardwaj, anxntbhardwaj, Portfolio, Software Developer, Cybersecurity, Ethical Hacking, VFX Artist, 3D Animation, Web Development, Python, JavaScript, HTML, CSS, Telegram Bot, Portfolio Website, CSE Student, Discord Presence, Lanyard, Full Stack, Developer Portfolio, Creative Technologist, UI/UX, Cyan Theme">
+    <meta name="author" content="Anant Bhardwaj">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media Meta -->
+    <meta property="og:title" content="Anant Bhardwaj /// Portfolio">
+    <meta property="og:description" content="CSE Student | Software Dev | Cybersecurity | VFX Artist | Certified Professional (@anxntbhardwaj). Discover my projects and skills.">
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/781420133/3296d4fd-5c5b-476b-a19b-7d9da71e938a">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Anant Bhardwaj Portfolio Banner - Abstract Code">
+    <meta property="og:url" content="https://anantbhardwaj.dev"> <!-- REPLACE WITH YOUR ACTUAL URL -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anant Bhardwaj /// Portfolio">
+    <meta name="twitter:description" content="CSE Student | Software Dev | Cybersecurity | VFX Artist (@anxntbhardwaj). Explore my work.">
+    <meta name="twitter:image" content="https://repository-images.githubusercontent.com/781420133/3296d4fd-5c5b-476b-a19b-7d9da71e938a">
+    <!-- <meta name="twitter:site" content="@your_twitter_handle"> -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#98e6e6"> <!-- Cyan -->
+    <meta name="msapplication-TileColor" content="#0a0a0a">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://api.lanyard.rest">
+    <link rel="preconnect" href="https://cdn.discordapp.com">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <style>
+        :root {
+            --dark-bg: #050505;
+            --dark-bg-secondary: #0a0a0f;
+            --dark-card: rgba(10, 15, 20, 0.75); /* Slightly less transparent */
+            --dark-card-hover: rgba(15, 20, 30, 0.9);
+            --glass-blur: 14px;
+            --border-color: rgba(152, 230, 230, 0.15); /* Faint cyan border */
+            --border-color-hover: rgba(152, 230, 230, 0.6); /* Accent Cyan */
+            --border-color-accent: var(--border-color-hover);
+
+            --text-light: #e0f0f5;
+            --text-medium: #9cb0c0;
+            --text-dark: #607080;
+
+            --accent-cyan: #98e6e6; /* Primary Accent */
+            --accent-blue: #a6e3e9; /* Secondary */
+            --accent-mint: #c9f7c9;
+            --accent-pink: #ffb6c1; /* For cursor contrast */
+            --accent-cyan-rgb: 152, 230, 230;
+            --accent-blue-rgb: 166, 227, 233;
+
+            --accent-gradient: linear-gradient(120deg, var(--accent-cyan) 0%, var(--accent-blue) 50%, var(--accent-mint) 100%);
+
+            --glow-color-cyan: rgba(var(--accent-cyan-rgb), 0.50);
+            --glow-color-blue: rgba(var(--accent-blue-rgb), 0.45);
+            --glow-color-mint: rgba(201, 247, 201, 0.35);
+            --glow-color-pink: rgba(255, 182, 193, 0.45); /* Cursor glow */
+
+            --font-primary: 'Poppins', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+
+            --transition-fast: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            --transition-medium: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+            --transition-slow: 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+            --transition-elastic: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+            --shadow-sm: 0 5px 18px rgba(0, 0, 0, 0.4);
+            --shadow-md: 0 10px 35px rgba(0, 0, 0, 0.5);
+            --shadow-lg: 0 18px 60px rgba(0, 0, 0, 0.6);
+
+            --perspective: 1200px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; font-size: 16px; }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            line-height: 1.75;
+            overflow-x: hidden;
+            background: linear-gradient(225deg, var(--dark-bg) 0%, var(--dark-bg-secondary) 35%, rgba(var(--accent-cyan-rgb), 0.04) 50%, var(--dark-bg-secondary) 65%, var(--dark-bg) 100%);
+            background-size: 400% 400%;
+            animation: gradientFlowSubtle 30s ease infinite;
+            position: relative;
+            opacity: 0;
+            transition: opacity 0.8s ease-out;
+        }
+        body.loaded { opacity: 1; }
+
+        body::after { /* Noise Overlay */
+            content: ""; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            width: 100%; height: 100%;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="1" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23n)" opacity=".025"/></svg>');
+            pointer-events: none; z-index: -1;
+            animation: noiseAnim .6s steps(2) infinite;
+        }
+        @keyframes noiseAnim { from { transform: translate(1px, -1px); } to { transform: translate(-1px, 1px); } }
+        @keyframes gradientFlowSubtle { 0% { background-position: 0% 0%; } 50% { background-position: 100% 100%; } 100% { background-position: 0% 0%; } }
+
+        /* --- General & Accessibility --- */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 30px; }
+        img { max-width: 100%; height: auto; display: block; border-radius: 10px; }
+        a { color: var(--accent-cyan); text-decoration: none; transition: color var(--transition-fast), filter var(--transition-fast); }
+        a:hover { color: var(--accent-blue); filter: brightness(1.1); }
+        button { cursor: pointer; border: none; background: none; color: inherit; font-family: inherit; }
+        ::selection { background-color: var(--accent-cyan); color: var(--dark-bg); }
+
+        :focus-visible {
+            outline: none; box-shadow: 0 0 0 3px var(--dark-bg), 0 0 0 5px var(--accent-cyan);
+            border-radius: 6px; transition: box-shadow 0.2s ease-out;
+        }
+        a:focus-visible {
+             box-shadow: none; outline: 2px dashed var(--accent-cyan);
+             outline-offset: 3px; border-radius: 4px;
+        }
+        .skip-link {
+            position: absolute; top: -100px; left: 15px;
+            background: var(--accent-mint); color: var(--dark-bg);
+            padding: 12px 20px; z-index: 10001;
+            transition: top 0.35s var(--transition-elastic);
+            border-radius: 6px; font-weight: 700; box-shadow: var(--shadow-md);
+        }
+        .skip-link:focus { top: 20px; }
+        .visually-hidden { /* Standard SR-only class */
+            position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+            overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+        }
+
+        /* --- Navigation --- */
+        .top-nav {
+            position: fixed; top: 0; left: 0; width: 100%; padding: 2rem 3rem;
+            display: flex; justify-content: flex-end; gap: 2.2rem; z-index: 1000;
+            background: linear-gradient(to bottom, rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0));
+            transition: background-color var(--transition-medium), backdrop-filter var(--transition-medium), box-shadow var(--transition-medium), border-bottom-color var(--transition-medium);
+            border-bottom: 1px solid transparent;
+        }
+        body.scrolled .top-nav {
+            background-color: rgba(5, 5, 5, 0.65); backdrop-filter: blur(var(--glass-blur));
+            box-shadow: 0 5px 25px rgba(0,0,0,0.45);
+            border-bottom-color: rgba(var(--accent-cyan-rgb), 0.1); /* Faint cyan border */
+        }
+        .nav-link {
+            color: var(--text-medium); font-size: 1.8rem;
+            transition: color var(--transition-fast), transform var(--transition-elastic), filter var(--transition-medium);
+            filter: drop-shadow(0 1px 4px rgba(0,0,0,0.5)); will-change: transform, color, filter;
+        }
+        .nav-link:hover, .nav-link:focus-visible {
+            color: var(--accent-cyan); transform: translateY(-5px) scale(1.2) rotate(-5deg);
+            filter: drop-shadow(0 0 15px var(--glow-color-cyan));
+        }
+
+        /* --- Header (Enhanced) --- */
+        header {
+            min-height: 100vh; display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            position: relative; overflow: hidden; text-align: center;
+            padding: 8rem 1.5rem 5rem 1.5rem; /* Adjusted padding */
+            background-color: var(--dark-bg); /* Solid dark base */
+            will-change: transform;
+        }
+
+        /* Header Background Effect: Animated Grid */
+        header::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background-image: /* Horizontal lines */
+                linear-gradient(rgba(var(--accent-cyan-rgb), 0.08) 1px, transparent 1px),
+                 /* Vertical lines */
+                linear-gradient(90deg, rgba(var(--accent-cyan-rgb), 0.08) 1px, transparent 1px);
+            background-size: 60px 60px; /* Larger grid */
+            opacity: 0;
+            animation: fadeInGrid 2s ease-out 0.5s forwards, matrixScrollHeader 40s linear infinite;
+            z-index: 0;
+            mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%); /* Fade edges */
+            pointer-events: none;
+        }
+        @keyframes fadeInGrid { to { opacity: 0.15; } }
+        @keyframes matrixScrollHeader {
+            0% { background-position: 0 0; }
+            100% { background-position: 0 -1200px; }
+        }
+
+        /* Header Content Container */
+        .header-content {
+            z-index: 1; max-width: 950px; position: relative;
+            /* Parallax transition moved to JS */
+            opacity: 0;
+            animation: fadeInFromBottom 1.2s var(--transition-slow) 0.8s forwards; /* Start after grid fade */
+            will-change: transform, opacity;
+        }
+        @keyframes fadeInFromBottom { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Main Name */
+        h1 {
+            font-family: var(--font-mono); font-size: clamp(3.2rem, 9vw, 6rem);
+            margin-bottom: 1rem; font-weight: 800; letter-spacing: -3px; color: #fff;
+            text-shadow: 0 0 12px rgba(var(--accent-cyan-rgb), 0.2), /* Cyan text shadow */
+                         0 0 30px rgba(var(--accent-cyan-rgb), 0.3),
+                         0 0 60px var(--glow-color-cyan);
+            position: relative; line-height: 1.1;
+        }
+        h1 .highlight { /* Highlight part of the name */
+            background: linear-gradient(120deg, var(--accent-cyan) 0%, var(--accent-blue) 100%); /* Cyan/Blue gradient */
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+            filter: drop-shadow(0 0 20px var(--glow-color-cyan));
+            display: inline-block; transition: transform 0.4s var(--transition-elastic);
+        }
+         h1:hover .highlight { transform: skewX(-5deg) scale(1.05); }
+
+        /* Terminal Cursor */
+        .terminal-cursor {
+            display: inline-block; width: 0.9rem; height: clamp(2.8rem, 8vw, 5rem);
+            background: var(--accent-pink); /* Keep pink for contrast */
+            animation: blinkHeaderCursor 1s steps(1, end) infinite;
+            margin-left: 15px; vertical-align: bottom; border-radius: 2px;
+            box-shadow: 0 0 15px var(--glow-color-pink), 0 0 5px #fff;
+            will-change: background-color, box-shadow, opacity;
+        }
+        @keyframes blinkHeaderCursor { 50% { background: var(--accent-cyan); box-shadow: 0 0 15px var(--glow-color-cyan), 0 0 5px #fff; } }
+        @keyframes fadeOutCursor { to { opacity: 0; } }
+
+        /* NEW: Futuristic Tagline */
+        .tagline {
+            font-family: var(--font-mono);
+            font-size: clamp(1.1rem, 3.5vw, 1.5rem); /* Slightly smaller than old subtitle */
+            color: var(--text-medium);
+            margin-top: 2rem; /* Space below name */
+            margin-bottom: 3.5rem;
+            min-height: 1.5em; /* Prevent layout jump */
+            opacity: 0; /* Start hidden */
+            transition: opacity 0.5s ease-out; /* For final fade-in */
+            will-change: opacity;
+        }
+        .tagline.visible { opacity: 1; } /* Class added by JS */
+        .tagline .char { /* Individual character spans for animation */
+            display: inline-block;
+            opacity: 0; /* Start hidden */
+        }
+        .tagline .placeholder { /* Used during scramble */
+            color: var(--accent-cyan);
+            opacity: 0.7;
+        }
+
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-flex; align-items: center; gap: 0.8rem;
+            background: var(--accent-gradient); background-size: 300% auto;
+            color: var(--dark-bg); padding: 18px 45px; border-radius: 50px;
+            text-decoration: none; font-weight: 700; font-size: 1.2rem;
+            transition: transform var(--transition-elastic), box-shadow var(--transition-medium), background-position var(--transition-slow);
+            box-shadow: 0 8px 30px var(--glow-color-blue), 0 0 10px rgba(255,255,255,0.1) inset;
+            border: 1px solid rgba(var(--accent-cyan-rgb), 0.2);
+            cursor: pointer; will-change: transform, box-shadow;
+        }
+        .cta-button i { transition: transform 0.4s var(--transition-elastic); }
+        .cta-button:hover, .cta-button:focus-visible {
+            transform: translateY(-6px) scale(1.05);
+            box-shadow: 0 12px 40px var(--glow-color-cyan), 0 0 15px rgba(255,255,255,0.15) inset;
+            background-position: right center;
+        }
+        .cta-button:hover i { transform: rotate(20deg) scale(1.15); }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+            font-size: 1rem; opacity: 0.7; color: var(--text-medium);
+            animation: bounceFadePremium 3.5s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            will-change: transform, opacity; transition: opacity 0.6s ease-out;
+        }
+        @keyframes bounceFadePremium { 0%, 100% { transform: translateY(0) translateX(-50%) scale(1); opacity: 0.7; } 50% { transform: translateY(15px) translateX(-50%) scale(0.9); opacity: 0.3; } }
+        body.scrolled .scroll-indicator { opacity: 0; pointer-events: none; }
+
+        /* --- Section Styling --- */
+        section {
+            padding: 9rem 0; overflow: hidden; position: relative;
+            opacity: 0; transform: translateY(60px);
+            transition: opacity 1s var(--transition-slow), transform 1s var(--transition-slow);
+            will-change: opacity, transform;
+        }
+        section:nth-of-type(even) { background-color: var(--dark-bg-secondary); }
+        section.visible { opacity: 1; transform: translateY(0); }
+
+        section.visible [data-anim] { /* Stagger animation */
+            opacity: 0; transform: translateY(40px);
+            animation: elementFadeInUpPremium 0.8s var(--transition-slow) forwards;
+            animation-delay: calc(var(--anim-delay, 0.1) * 1s);
+            will-change: opacity, transform;
+        }
+        @keyframes elementFadeInUpPremium { to { opacity: 1; transform: translateY(0); } }
+
+        .section-title {
+            font-size: clamp(2.5rem, 6vw, 3.5rem); margin-bottom: 6rem; text-align: center;
+            font-weight: 800; color: #fff; position: relative; padding-bottom: 1.5rem;
+            text-shadow: 0 0 18px rgba(var(--accent-cyan-rgb), 0.18);
+            opacity: 0; transform: translateY(40px);
+            transition: opacity 0.8s ease-out 0.2s, transform 0.8s ease-out 0.2s;
+            will-change: opacity, transform;
+        }
+        section.visible .section-title { opacity: 1; transform: translateY(0); }
+
+        .section-title::before { /* Hacker prefix */
+            content: "// " attr(data-section-title); display: block;
+            font-family: var(--font-mono); font-size: 0.6em;
+            color: var(--accent-cyan); /* Cyan prefix */
+            letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.5rem;
+            opacity: 0.7; text-shadow: 0 0 8px var(--glow-color-cyan);
+        }
+        .section-title::after { /* Underline */
+            content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+            width: 90px; height: 7px; background: var(--accent-gradient); border-radius: 4px;
+            box-shadow: 0 0 20px var(--glow-color-cyan);
+            transition: width 0.5s var(--transition-elastic), box-shadow 0.5s ease;
+            will-change: width, box-shadow;
+        }
+        section.visible .section-title:hover::after {
+            width: 130px; box-shadow: 0 0 25px var(--glow-color-blue); /* Shift glow to blue */
+        }
+
+        /* --- About Section --- */
+        #about p {
+            max-width: 850px; margin: 0 auto; text-align: center;
+            font-size: 1.25rem; color: var(--text-light); line-height: 1.9;
+        }
+        #about strong { color: var(--accent-mint); font-weight: 600; text-shadow: 0 0 5px var(--glow-color-mint); }
+
+        /* --- Skills Section --- */
+        .skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 3.5rem; }
+        .skill-category {
+            padding: 3.5rem 3rem; border-radius: 20px; background: var(--dark-card);
+            border: 1px solid var(--border-color);
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-color var(--transition-medium), background-color var(--transition-medium), border-left-color var(--transition-medium);
+            box-shadow: var(--shadow-md); backdrop-filter: blur(var(--glass-blur));
+            will-change: transform, box-shadow; position: relative; overflow: hidden;
+            border-left: 5px solid transparent;
+        }
+        .skill-category::after { /* Grid Overlay */
+             content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+             background-image: linear-gradient(rgba(var(--accent-cyan-rgb), 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-cyan-rgb), 0.08) 1px, transparent 1px);
+             background-size: 30px 30px; opacity: 0; transition: opacity var(--transition-medium);
+             pointer-events: none; z-index: 0;
+        }
+        .skill-category:hover {
+            transform: translateY(-10px) scale(1.03); box-shadow: var(--shadow-lg), 0 0 25px var(--glow-color-cyan);
+            border-color: var(--border-color-hover); background-color: var(--dark-card-hover);
+            border-left-color: var(--accent-cyan);
+        }
+         .skill-category:hover::after { opacity: 1; }
+        .skill-category h3 {
+            color: var(--accent-cyan); margin-bottom: 2.2rem; font-size: 1.7rem;
+            font-weight: 700; border-bottom: 2px solid rgba(var(--accent-cyan-rgb), 0.3);
+            padding-bottom: 1rem; display: inline-flex; align-items: center; gap: 1rem;
+            position: relative; z-index: 1;
+        }
+        .skill-category h3 .skill-icon { font-size: 1.5rem; }
+        .skill-list { list-style: none; padding-left: 0; position: relative; z-index: 1; }
+        .skill-list li {
+            margin-bottom: 1.2rem; display: flex; align-items: center;
+            font-size: 1.1rem; color: var(--text-light);
+            transition: color var(--transition-fast), transform var(--transition-fast);
+        }
+        .skill-list li:hover { color: var(--accent-mint); transform: translateX(6px); }
+        .skill-list li i.skill-icon {
+            margin-right: 1.3rem; color: var(--accent-blue); width: 26px; text-align: center; /* Blue icons */
+            font-size: 1.2rem; transition: transform var(--transition-elastic), color var(--transition-fast);
+        }
+        .skill-list li:hover i.skill-icon { transform: scale(1.3) rotate(-15deg); color: var(--accent-mint); }
+
+        /* --- Certifications Section --- */
+        #certifications .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 3rem; }
+        .cert-card {
+            background: var(--dark-card); border: 1px solid var(--border-color); border-radius: 15px;
+            padding: 2.2rem; display: flex; gap: 2rem; align-items: flex-start;
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-color var(--transition-medium), background-color var(--transition-medium);
+            box-shadow: var(--shadow-md); backdrop-filter: blur(var(--glass-blur));
+            will-change: transform, box-shadow; position: relative; overflow: hidden;
+        }
+         .cert-card::before { /* Animated border */
+            content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+            background: conic-gradient(transparent, var(--accent-cyan), transparent 30%);
+            animation: rotateBorder 5s linear infinite paused; opacity: 0;
+            transition: opacity 0.4s ease; pointer-events: none; z-index: 0;
+         }
+          @keyframes rotateBorder { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        .cert-card:hover {
+             transform: translateY(-8px) scale(1.01); box-shadow: var(--shadow-lg);
+             border-color: var(--border-color-hover); background-color: var(--dark-card-hover);
+        }
+         .cert-card:hover::before { opacity: 0.5; animation-play-state: running; }
+        .cert-icon {
+            font-size: 3rem; color: var(--accent-cyan); margin-top: 0.4rem; flex-shrink: 0;
+            transition: transform 0.4s var(--transition-elastic); position: relative; z-index: 1;
+        }
+        .cert-card:hover .cert-icon { transform: scale(1.15) rotate(8deg); }
+        .cert-details { position: relative; z-index: 1; }
+        .cert-details h4 { font-size: 1.25rem; color: var(--accent-mint); margin-bottom: 0.5rem; font-weight: 700; }
+        .cert-details .issuer { font-size: 1rem; color: var(--text-medium); margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.6rem; }
+        .cert-details .issuer i { font-size: 0.9rem; color: var(--text-dark); }
+        .cert-details .skills-list { font-size: 0.95rem; color: var(--text-light); opacity: 0.9; margin-bottom: 1.4rem; }
+        .cert-details .skills-list strong { color: var(--text-medium); font-weight: 600; }
+        .cert-details .cert-link {
+            font-size: 1rem; font-weight: 600; color: var(--accent-blue); display: inline-flex;
+            align-items: center; gap: 0.6rem; transition: color var(--transition-fast), gap var(--transition-fast), text-shadow var(--transition-fast);
+        }
+         .cert-details .cert-link:hover, .cert-details .cert-link:focus-visible {
+             color: var(--accent-cyan); text-decoration: underline; gap: 0.9rem; text-shadow: 0 0 8px var(--glow-color-cyan);
+         }
+          .cert-details .cert-link i { font-size: 0.9rem; transition: transform 0.3s ease; }
+          .cert-details .cert-link:hover i { transform: translateX(4px) scale(1.1); }
+
+        /* --- Projects Section --- */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 3.5rem; perspective: var(--perspective); }
+        .project-card {
+            background: var(--dark-card); border: 1px solid var(--border-color); border-radius: 18px; padding: 2.8rem;
+            transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow var(--transition-medium), border-color var(--transition-medium), background-color var(--transition-medium);
+            display: flex; flex-direction: column; height: 100%; box-shadow: var(--shadow-lg);
+            position: relative; overflow: hidden; backdrop-filter: blur(var(--glass-blur));
+            will-change: transform, box-shadow; transform-style: preserve-3d;
+        }
+        .project-card:hover {
+            transform: translateY(-15px) rotateX(6deg) rotateY(-4deg) scale(1.05);
+            box-shadow: 0 25px 55px rgba(0, 0, 0, 0.6), 0 0 40px var(--glow-color-cyan); /* Cyan glow */
+            border-color: var(--border-color-hover); background-color: var(--dark-card-hover);
+        }
+        .project-card::before { /* Border Glow */
+            content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: 18px; border: 1.5px solid transparent; pointer-events: none; z-index: 1;
+            box-shadow: inset 0 0 15px rgba(var(--accent-cyan-rgb), 0); transition: border-color var(--transition-medium), box-shadow 0.4s ease;
+        }
+        .project-card:hover::before { border-color: var(--border-color-hover); box-shadow: inset 0 0 20px rgba(var(--accent-cyan-rgb), 0.3); }
+        .project-card h3 {
+            font-size: 1.75rem; margin-bottom: 1.4rem; color: var(--accent-mint); font-weight: 700;
+            display: flex; align-items: center; gap: 1rem; transform: translateZ(40px); text-shadow: 0 0 10px var(--glow-color-mint);
+        }
+        .project-card h3 i { font-size: 1.5rem; transition: transform 0.4s var(--transition-elastic); }
+        .project-card:hover h3 i { transform: rotate(-12deg) scale(1.1); }
+        .project-card p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; flex-grow: 1; color: var(--text-medium); transform: translateZ(25px); }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: auto; padding-top: 1.8rem; border-top: 1px solid var(--border-color); transform: translateZ(15px); }
+        .tag {
+            font-family: var(--font-mono); font-size: 0.9rem; padding: 0.6rem 1.1rem; border-radius: 25px;
+            background: rgba(var(--accent-cyan-rgb), 0.15); color: var(--accent-cyan); font-weight: 400;
+            transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+            cursor: default; border: 1px solid rgba(var(--accent-cyan-rgb), 0.25);
+        }
+        .project-card:hover .tag { background-color: rgba(var(--accent-cyan-rgb), 0.25); }
+        .tag:hover { transform: scale(1.1); color: var(--text-light); box-shadow: 0 0 10px var(--glow-color-cyan); }
+        .project-links { margin-top: 1.8rem; display: flex; flex-wrap: wrap; gap: 1.8rem; z-index: 2; position: relative; transform: translateZ(50px); }
+        .project-link {
+            color: var(--text-medium); font-size: 1.6rem; transition: color var(--transition-fast), transform var(--transition-elastic), filter var(--transition-fast);
+            display: inline-flex; align-items: center; gap: 0.6rem;
+        }
+         .project-link span { font-size: 1rem; font-family: var(--font-mono); color: var(--text-medium); transition: color var(--transition-fast); }
+        .project-link:hover, .project-link:focus-visible { color: var(--accent-cyan); transform: scale(1.2) rotate(-5deg); filter: drop-shadow(0 0 10px var(--glow-color-cyan)); }
+        .project-link:hover span { color: var(--accent-cyan); }
+
+        /* --- Career Goals Section --- */
+        .goals-list { list-style: none; max-width: 850px; margin: 0 auto; padding-left: 0; }
+        .goals-list li {
+            font-size: 1.2rem; margin-bottom: 2rem; display: flex; align-items: center;
+            background: rgba(10, 15, 25, 0.65); padding: 1.8rem 2.2rem; border-radius: 15px;
+            border-left: 7px solid var(--accent-cyan);
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-left-color var(--transition-medium), background-color var(--transition-medium);
+            box-shadow: var(--shadow-md); cursor: default; backdrop-filter: blur(10px);
+        }
+        .goals-list li:hover {
+            transform: translateX(10px) scale(1.03); box-shadow: var(--shadow-lg), 0 0 20px var(--glow-color-blue);
+            border-left-color: var(--accent-blue); background-color: rgba(15, 20, 35, 0.75);
+        }
+        .goals-list li i { margin-right: 1.8rem; color: var(--accent-cyan); font-size: 1.6rem; transition: color var(--transition-medium), transform var(--transition-elastic); }
+        .goals-list li:hover i { color: var(--accent-blue); transform: rotate(15deg) scale(1.1); }
+
+        /* --- Discord Presence Styles --- */
+        #discord-presence { padding-bottom: 7rem; }
+        .discord-card-container { max-width: 480px; margin: 0 auto; perspective: 900px; }
+        .discord-card {
+            background: var(--dark-card); border: 1px solid var(--border-color); border-radius: 18px; padding: 2.5rem 3rem;
+            display: flex; align-items: center; justify-content: center; min-height: 160px; box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(var(--glass-blur)); transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-color var(--transition-medium), border-left-color var(--transition-medium);
+            position: relative; overflow: hidden; text-align: center; border-left: 5px solid var(--text-dark);
+        }
+        .discord-card.status-online { border-left-color: #3ba55d; } .discord-card.status-idle { border-left-color: #faa61a; }
+        .discord-card.status-dnd { border-left-color: #ed4245; } .discord-card.status-offline { border-left-color: #747f8d; }
+        .discord-card:hover { transform: translateY(-5px) scale(1.01); box-shadow: var(--shadow-lg), 0 0 20px var(--glow-color-cyan); border-color: var(--border-color-hover); }
+        .discord-card .discord-loading, .discord-card .discord-error { display: flex; align-items: center; justify-content: center; gap: 1rem; color: var(--text-medium); font-size: 1.15rem; width: 100%; text-align: center; }
+        .discord-card.loading .fa-spinner { font-size: 1.8rem; color: var(--accent-cyan); }
+        .discord-card.error .fa-exclamation-triangle { font-size: 1.8rem; color: var(--accent-pink); }
+        .discord-card.loading .discord-content, .discord-card.loading .discord-error { display: none; }
+        .discord-card.error .discord-content, .discord-card.error .discord-loading { display: none; }
+        .discord-card:not(.loading):not(.error) .discord-loading, .discord-card:not(.loading):not(.error) .discord-error { display: none; }
+        .discord-card:not(.loading):not(.error) .discord-content { display: flex; }
+        .discord-card .discord-content { align-items: center; gap: 2rem; width: 100%; text-align: left; }
+        .discord-pfp { width: 85px; height: 85px; border-radius: 50%; border: 4px solid var(--border-color-hover); box-shadow: 0 0 20px var(--glow-color-cyan); flex-shrink: 0; object-fit: cover; transition: transform 0.4s var(--transition-elastic); }
+        .discord-card:hover .discord-pfp { transform: scale(1.05) rotate(-3deg); }
+        .discord-info { display: flex; flex-direction: column; gap: 0.5rem; flex-grow: 1; overflow: hidden; }
+        .discord-user { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem; }
+        .discord-username { font-size: 1.4rem; font-weight: 700; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .discord-discriminator { font-size: 1rem; color: var(--text-medium); font-weight: 400; }
+        .discord-status-text, .discord-activity { font-size: 1rem; color: var(--text-medium); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 0.5em; min-height: 1.2em; }
+        .discord-activity strong { color: var(--text-light); font-weight: 600; }
+        .discord-activity img.discord-activity-emoji { width: 1.2em; height: 1.2em; vertical-align: middle; margin: 0 0.1em; }
+        .discord-badges { margin-top: 0.8rem; display: flex; flex-wrap: wrap; gap: 0.6rem; min-height: 24px; }
+        .discord-badge { width: 24px; height: 24px; object-fit: contain; transition: transform 0.2s ease; background-color: transparent; border-radius: 4px; }
+        .discord-badge:hover { transform: scale(1.25) rotate(5deg); }
+        .lanyard-attribution { text-align: center; margin-top: 1.8rem; font-size: 0.9rem; color: var(--text-dark); opacity: 0.8; }
+        .lanyard-attribution a { color: var(--text-medium); font-weight: 600; }
+        .lanyard-attribution a:hover { color: var(--accent-cyan); }
+
+        /* --- Contact CTA Section --- */
+        #contact-cta { text-align: center; padding: 7rem 0; }
+        #contact-cta h2 { margin-bottom: 2.5rem; }
+        #contact-cta p { max-width: 700px; margin: 0 auto 3.5rem auto; font-size: 1.2rem; color: var(--text-medium); line-height: 1.8; }
+
+        /* --- Digital Presence Section (#connect) --- */
+        #connect { padding: 7rem 0 9rem 0; background: linear-gradient(to top, var(--dark-bg) 0%, #08080c 50%, var(--dark-bg-secondary) 100%); position: relative; }
+        #connect::before { /* Circuit Lines */
+            content: ''; position: absolute; top: 0; left: 10%; right: 10%; bottom: 0;
+            background-image: radial-gradient(circle at center, rgba(var(--accent-cyan-rgb), 0.8) 1px, transparent 1px), linear-gradient(rgba(var(--accent-cyan-rgb), 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-cyan-rgb), 0.06) 1px, transparent 1px);
+            background-size: 2px 2px, 50px 50px, 50px 50px; background-position: center center, 0 0, 0 0;
+            opacity: 0.4; z-index: 0; pointer-events: none; mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+        }
+        .connect-container {
+            max-width: 850px; margin: 0 auto; text-align: center; position: relative; padding: 4rem 2.5rem;
+            background: rgba(8, 8, 12, 0.8); border: 1px solid rgba(var(--accent-cyan-rgb), 0.2); border-radius: 22px;
+            box-shadow: var(--shadow-lg), inset 0 2px 5px rgba(0,0,0,0.4); backdrop-filter: blur(18px); overflow: hidden;
+        }
+        .common-handle {
+            font-family: var(--font-mono); font-size: clamp(1.6rem, 4.5vw, 2.2rem); color: var(--accent-mint); margin-bottom: 4rem; display: inline-block;
+            letter-spacing: 1.5px; text-shadow: 0 0 12px var(--glow-color-blue), 0 0 25px var(--glow-color-mint);
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+        }
+        .common-handle:hover { transform: scale(1.03); text-shadow: 0 0 15px var(--glow-color-blue), 0 0 30px var(--glow-color-mint); }
+        .common-handle i { margin-right: 0.8rem; opacity: 0.8; }
+        .social-links-grid { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1.8rem; position: relative; }
+
+        /* Social Icon Radial Fill */
+        .social-icon-link {
+            font-size: 2.5rem; color: var(--text-medium); padding: 1.2rem; display: inline-block; position: relative;
+            overflow: hidden; border-radius: 50%; transition: color var(--transition-medium), transform var(--transition-elastic), filter var(--transition-medium), -webkit-text-fill-color 0.4s ease, border-color 0.4s ease;
+            will-change: transform, color, filter, border-color; z-index: 1; -webkit-text-fill-color: var(--text-medium); border: 1px solid transparent; vertical-align: middle;
+        }
+        .social-icon-link i { position: relative; z-index: 2; display: block; }
+        .social-icon-link::before { /* Tooltip */
+            content: attr(data-platform); font-family: var(--font-mono); font-size: 0.8rem; position: absolute; top: 115%; left: 50%; transform: translateX(-50%);
+            background: var(--accent-blue); color: var(--dark-bg); padding: 4px 10px; border-radius: 5px; white-space: nowrap; opacity: 0; visibility: hidden;
+            transition: opacity 0.3s ease 0.1s, visibility 0.3s ease 0.1s, transform 0.3s ease 0.1s; z-index: 10; box-shadow: 0 3px 8px rgba(0,0,0,0.4); pointer-events: none;
+        }
+        .social-icon-link::after { /* Radial Fill */
+            content: ''; position: absolute; top: 50%; left: 50%; width: 0; height: 0;
+            background-color: var(--hover-fill-color, rgba(var(--accent-cyan-rgb), 0.15)); border-radius: 50%; transform: translate(-50%, -50%);
+            opacity: 0; transition: width 0.4s var(--transition-medium), height 0.4s var(--transition-medium), opacity 0.4s var(--transition-medium);
+            z-index: 1; pointer-events: none;
+        }
+        .social-icon-link:hover, .social-icon-link:focus-visible { transform: translateY(-8px) scale(1.2); filter: drop-shadow(0 0 18px var(--glow-color-cyan)); border-color: rgba(var(--accent-cyan-rgb), 0.2); outline: none; -webkit-text-fill-color: var(--accent-cyan); }
+        .social-icon-link:hover::before, .social-icon-link:focus-visible::before { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(5px); }
+        .social-icon-link:hover::after, .social-icon-link:focus-visible::after { width: 150%; height: 150%; opacity: 1; }
+        .social-icon-link.github:hover, .social-icon-link.github:focus-visible { --hover-fill-color: rgba(200, 200, 200, 0.2); color: #fff; -webkit-text-fill-color: #fff; filter: drop-shadow(0 0 18px rgba(255,255,255,0.6)); border-color: rgba(255,255,255,0.3); }
+        .social-icon-link.linkedin:hover, .social-icon-link.linkedin:focus-visible { --hover-fill-color: rgba(10,102,194,0.2); color: #0A66C2; -webkit-text-fill-color: #0A66C2; filter: drop-shadow(0 0 18px rgba(10,102,194,0.7)); border-color: rgba(10,102,194,0.3); }
+        .social-icon-link.email:hover, .social-icon-link.email:focus-visible { --hover-fill-color: rgba(var(--accent-cyan-rgb),0.2); color: var(--accent-cyan); -webkit-text-fill-color: var(--accent-cyan); filter: drop-shadow(0 0 18px var(--glow-color-cyan)); border-color: rgba(var(--accent-cyan-rgb),0.3); }
+        .social-icon-link.instagram:hover, .social-icon-link.instagram:focus-visible { --hover-fill-color: rgba(225,48,108,0.15); color: #E1306C; filter: drop-shadow(0 0 18px rgba(225,48,108,0.7)); background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; border-color: rgba(225,48,108,0.3); }
+        .social-icon-link.telegram:hover, .social-icon-link.telegram:focus-visible { --hover-fill-color: rgba(42,171,238,0.2); color: #2AABEE; -webkit-text-fill-color: #2AABEE; filter: drop-shadow(0 0 18px rgba(42,171,238,0.7)); border-color: rgba(42,171,238,0.3); }
+        .social-icon-link.youtube:hover, .social-icon-link.youtube:focus-visible { --hover-fill-color: rgba(255,0,0,0.15); color: #FF0000; -webkit-text-fill-color: #FF0000; filter: drop-shadow(0 0 18px rgba(255,0,0,0.7)); border-color: rgba(255,0,0,0.3); }
+
+        .platform-indicator { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); width: 0; height: 4px; background: var(--accent-gradient); border-radius: 4px; box-shadow: 0 0 18px var(--glow-color-cyan); transition: width 0.6s var(--transition-elastic); z-index: 0; will-change: width; }
+        .connect-container:hover .platform-indicator { width: 180px; }
+
+        /* --- Footer --- */
+        footer { padding: 6rem 0 3rem 0; text-align: center; background: var(--dark-bg); border-top: 1px solid rgba(var(--accent-cyan-rgb), 0.1); position: relative; margin-top: 6rem; }
+        .copyright { font-size: 1.05rem; opacity: 0.85; color: var(--text-medium); }
+        .copyright a { color: var(--accent-mint); font-weight: 600; }
+        .copyright a:hover { text-decoration: underline; color: var(--accent-cyan); filter: brightness(1.1); }
+        .copyright i.fa-heart { color: var(--accent-pink); margin: 0 5px; transition: transform 0.5s var(--transition-elastic); display: inline-block; }
+        .copyright:hover i.fa-heart { transform: scale(1.4); }
+
+         /* --- Responsive Overrides --- */
+         @media (max-width: 992px) {
+             .skills-container, .projects-grid, #certifications .cert-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; }
+             #certifications .cert-grid { grid-template-columns: 1fr; }
+             .project-card:hover { transform: translateY(-10px) scale(1.03); box-shadow: var(--shadow-lg), 0 0 25px var(--glow-color-cyan); }
+         }
+         @media (max-width: 768px) {
+             html { font-size: 15.5px; } .container { padding: 0 20px; }
+             .top-nav { padding: 1.5rem 2rem; gap: 2rem; } .nav-link { font-size: 1.7rem; }
+             header { padding: 8rem 1rem 5rem 1rem; }
+             h1 { font-size: clamp(2.8rem, 12vw, 4.2rem); letter-spacing: -2px; }
+             .tagline { font-size: clamp(1.1rem, 4.5vw, 1.3rem); margin-top: 1.5rem; margin-bottom: 3rem;}
+             .cta-button { padding: 16px 40px; font-size: 1.1rem; }
+             section { padding: 7rem 0; }
+             .section-title { font-size: clamp(2.2rem, 8vw, 2.8rem); margin-bottom: 5rem; }
+             .project-card:hover { transform: translateY(-8px) scale(1.02); }
+             .cert-card { flex-direction: column; align-items: center; text-align: center; gap: 1.5rem;}
+             .cert-icon { margin-top: 0; margin-bottom: 0.8rem; font-size: 2.8rem; }
+             .goals-list li { padding: 1.5rem 2rem; font-size: 1.1rem; }
+             .discord-card { padding: 2rem 2.5rem; min-height: 150px; }
+             .discord-pfp { width: 75px; height: 75px; } .discord-username { font-size: 1.25rem; }
+             .discord-card .discord-content { gap: 1.5rem; }
+             .social-icon-link { font-size: 2.2rem; padding: 1rem; }
+             .social-links-grid { gap: 1.5rem; }
+             .common-handle { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 3.5rem; }
+             .connect-container { padding: 3rem 2rem; }
+         }
+          @media (max-width: 480px) {
+             h1 { font-size: clamp(2.4rem, 13vw, 3.2rem); }
+             .tagline { font-size: clamp(1rem, 5vw, 1.1rem); margin-top: 1rem; margin-bottom: 2.5rem;}
+             .skills-container, .projects-grid, #certifications .cert-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+             .skill-category, .project-card, .cert-card { padding: 2.5rem 2rem; border-radius: 15px; }
+             .project-card { padding: 2.2rem 1.8rem;}
+             .project-card h3 { font-size: 1.5rem; margin-bottom: 1rem;}
+             .project-card p { font-size: 1.05rem; margin-bottom: 1.5rem;}
+             .tags { padding-top: 1.2rem; gap: 0.7rem;} .tag { font-size: 0.85rem; padding: 0.5rem 1rem;}
+             .project-links { margin-top: 1.5rem; gap: 1.5rem;} .project-link { font-size: 1.5rem;}
+             .goals-list li { font-size: 1.05rem; padding: 1.5rem 1.8rem;}
+             .cta-button { padding: 14px 35px; font-size: 1.05rem; }
+             .discord-card { padding: 2rem 1.5rem; }
+             .discord-card .discord-content { flex-direction: column; gap: 1.2rem; }
+             .discord-info { align-items: center; text-align: center;}
+             .discord-user { justify-content: center; } .discord-badges { justify-content: center; }
+             .discord-status-text, .discord-activity { justify-content: center;}
+             .social-icon-link { font-size: 2rem; padding: 0.9rem; }
+             .social-links-grid { gap: 1rem; }
+             .connect-container { padding: 2.5rem 1.5rem; border-radius: 18px; }
+             .common-handle { margin-bottom: 3rem; }
+             .social-icon-link::before { display: none; }
+             .platform-indicator:hover { width: 140px; }
+          }
+
+    </style>
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anant Bhardwaj",
+      "alternateName": "anxntbhardwaj",
+      "url": "https://anantbhardwaj.dev",
+      "jobTitle": "Computer Science Engineering Student",
+      "description": "CSE student focused on software development, cybersecurity, and creative technology.",
+      "knowsAbout": ["Software Development", "Cybersecurity", "Ethical Hacking", "VFX", "3D Animation", "Python", "JavaScript", "Web Development", "Telegram", "Discord", "Cloud Computing", "AI", "Prompt Engineering", "UI/UX Design"],
+      "sameAs": [
+        "https://github.com/anantbhardwaj-dev",
+        "https://linkedin.com/in/anantbhardwaj-dev",
+        "https://instagram.com/anxntbhardwaj",
+        "https://t.me/anxntbhardwaj",
+        "https://youtube.com/@anxntbhardwaj"
+      ],
+      "image": "https://repository-images.githubusercontent.com/781420133/3296d4fd-5c5b-476b-a19b-7d9da71e938a"
+    }
+    </script>
+</head>
+<body class=""> <!-- 'scrolled', 'loaded' classes added by JS -->
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="top-nav" aria-label="Top Social Media Links">
+        <a href="https://github.com/anantbhardwaj-dev" class="nav-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile (opens in new tab)">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/anantbhardwaj-dev" class="nav-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile (opens in new tab)">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:anant.bhardwaj.dev@gmail.com" class="nav-link" aria-label="Send Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://instagram.com/anxntbhardwaj" class="nav-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile (opens in new tab)">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </nav>
+
+    <!-- Header Section (No separate intro) -->
+    <header id="home">
+        <div class="header-content">
+            <h1>
+                <span class="highlight">Anant</span> Bhardwaj<div class="terminal-cursor" aria-hidden="true"></div>
+            </h1>
+            <!-- NEW Tagline Element -->
+            <div class="tagline" aria-label="CSE Student | Software Developer | Cybersecurity Enthusiast | VFX Artist">
+                 <!-- Content generated by JS -->
+            </div>
+            <a href="#projects" class="cta-button">
+                <i class="fas fa-meteor"></i> Explore Creations
+            </a>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">Descend <i class="fas fa-chevron-down"></i></div>
+    </header>
+
+    <main id="main-content">
+        <!-- About Me Section -->
+        <section id="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title" data-section-title="Identity_Protocol">Who Am I?</h2>
+                <p data-anim style="--anim-delay: 0.2;">
+                    A driven <strong>Computer Science Engineering</strong> student navigating the confluence of <strong>software architecture</strong>, fortified <strong>cybersecurity</strong>, and immersive <strong>creative technology</strong>. I engineer robust, security-conscious solutions—from encrypted communication conduits to meticulously crafted user interfaces—while charting the frontiers of <strong>VFX</strong> and <strong>3D artistry</strong>. My ethos centers on the elegant synthesis of function and form: deploying clean, resilient code that redefines digital interaction and creativity. Find my digital signature as <strong>@anxntbhardwaj</strong> across platforms.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title" class="section-title" data-section-title="Core_Matrix">Competencies</h2>
+                <div class="skills-container">
+                     <!-- Skill Category 1: Development -->
+                     <div class="skill-category" data-anim style="--anim-delay: 0.1;">
+                        <h3><i class="fas fa-laptop-code skill-icon" aria-hidden="true"></i> Development</h3>
+                        <ul class="skill-list">
+                             <li><i class="fab fa-python skill-icon" aria-hidden="true"></i> Python (Scripting, Bots, Tools)</li>
+                            <li><i class="fab fa-js-square skill-icon" aria-hidden="true"></i> JavaScript (ES6+, DOM)</li>
+                            <li><i class="fab fa-html5 skill-icon" aria-hidden="true"></i> HTML5 & Semantic Markup</li>
+                            <li><i class="fab fa-css3-alt skill-icon" aria-hidden="true"></i> CSS3 (Flexbox, Grid, Animations)</li>
+                            <li><i class="fas fa-code skill-icon" aria-hidden="true"></i> Web Application Fundamentals</li>
+                            <li><i class="fab fa-telegram skill-icon" aria-hidden="true"></i> Telegram Bot Development</li>
+                            <li><i class="fas fa-cogs skill-icon" aria-hidden="true"></i> REST API Integration</li>
+                             <li><i class="fas fa-terminal skill-icon" aria-hidden="true"></i> Bash Scripting & CLI</li>
+                            <li><i class="fab fa-git-alt skill-icon" aria-hidden="true"></i> Git & GitHub Version Control</li>
+                            <li><i class="fas fa-mobile-alt skill-icon" aria-hidden="true"></i> Responsive & Mobile-First Design</li>
+                        </ul>
+                    </div>
+                    <!-- Skill Category 2: Cybersecurity -->
+                    <div class="skill-category" data-anim style="--anim-delay: 0.2;">
+                        <h3><i class="fas fa-shield-halved skill-icon" aria-hidden="true"></i> Cybersecurity</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-user-secret skill-icon" aria-hidden="true"></i> Ethical Hacking Principles</li>
+                            <li><i class="fas fa-lock skill-icon" aria-hidden="true"></i> Encryption (AES) & Data Security</li>
+                            <li><i class="fas fa-fingerprint skill-icon" aria-hidden="true"></i> Access Control & UID Systems</li>
+                            <li><i class="fas fa-bug skill-icon" aria-hidden="true"></i> Threat & Vulnerability Concepts</li>
+                            <li><i class="fas fa-network-wired skill-icon" aria-hidden="true"></i> Network Security Fundamentals</li>
+                            <li><i class="fas fa-shield-alt skill-icon" aria-hidden="true"></i> Information Security Awareness</li>
+                            <li><i class="fas fa-key skill-icon" aria-hidden="true"></i> Cryptography Concepts</li>
+                            <li><i class="fas fa-search skill-icon" aria-hidden="true"></i> Computer Forensics Basics</li>
+                        </ul>
+                    </div>
+                     <!-- Skill Category 3: Creative & AI -->
+                     <div class="skill-category" data-anim style="--anim-delay: 0.3;">
+                        <h3><i class="fas fa-wand-magic-sparkles skill-icon" aria-hidden="true"></i> Creative & AI</h3>
+                        <ul class="skill-list">
+                             <li><i class="fas fa-film skill-icon" aria-hidden="true"></i> Adobe After Effects (VFX)</li>
+                            <li><i class="fas fa-cube skill-icon" aria-hidden="true"></i> Blender (Modeling, Animation)</li>
+                            <li><i class="fas fa-palette skill-icon" aria-hidden="true"></i> UI/UX Design Principles</li>
+                             <li><i class="fas fa-brain skill-icon" aria-hidden="true"></i> AI Concepts & Applications</li>
+                             <li><i class="fas fa-comments skill-icon" aria-hidden="true"></i> ChatGPT & Prompt Engineering</li>
+                             <li><i class="fas fa-bullhorn skill-icon" aria-hidden="true"></i> AI in Digital Marketing</li>
+                             <li><i class="fas fa-edit skill-icon" aria-hidden="true"></i> Image & Video Editing</li>
+                        </ul>
+                    </div>
+                    <!-- Skill Category 4: Tools & Platforms -->
+                    <div class="skill-category" data-anim style="--anim-delay: 0.4;">
+                        <h3><i class="fas fa-toolbox skill-icon" aria-hidden="true"></i> Tools & Platforms</h3>
+                        <ul class="skill-list">
+                            <li><i class="fab fa-linux skill-icon" aria-hidden="true"></i> Linux Environment & CLI</li>
+                            <li><i class="fas fa-code-branch skill-icon" aria-hidden="true"></i> Visual Studio Code</li>
+                            <li><i class="fab fa-github skill-icon" aria-hidden="true"></i> GitHub Collaboration</li>
+                            <li><i class="fab fa-microsoft skill-icon" aria-hidden="true"></i> Microsoft Office Suite</li>
+                             <li><i class="fab fa-google skill-icon" aria-hidden="true"></i> Google Workspace</li>
+                             <li><i class="fab fa-discord skill-icon" aria-hidden="true"></i> Discord & Community Tools</li>
+                             <li><i class="fas fa-cloud-arrow-up skill-icon" aria-hidden="true"></i> Cloud Platforms (Netlify, CF)</li>
+                            <li><i class="fas fa-graduation-cap skill-icon" aria-hidden="true"></i> Rapid Learning & Adaptability</li>
+                             <li><i class="fas fa-language skill-icon" aria-hidden="true"></i> French (Beginner)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" aria-labelledby="certs-title">
+            <div class="container">
+                <h2 id="certs-title" class="section-title" data-section-title="Accreditations">Licenses & Certifications</h2>
+                <div class="cert-grid">
+                     <!-- Cert Cards (Same as before) -->
+                    <article class="cert-card" data-anim style="--anim-delay: 0.1;"> <div class="cert-icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div> <div class="cert-details"> <h4>Career Essentials in Cybersecurity</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> Microsoft & LinkedIn</div> <div class="skills-list"><strong>Skills:</strong> Information Security Awareness, Cybersecurity, Threat & Vulnerability Management</div> <div class="issuer">Issued: Nov 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.2;"> <div class="cert-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div> <div class="cert-details"> <h4>Cybersecurity Awareness: Terminology</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> LinkedIn</div> <div class="skills-list"><strong>Skills:</strong> Information Security Awareness</div> <div class="issuer">Issued: Nov 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.3;"> <div class="cert-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div> <div class="cert-details"> <h4>Cybersecurity Foundations</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> LinkedIn</div> <div class="skills-list"><strong>Skills:</strong> Cybersecurity Fundamentals</div> <div class="issuer">Issued: Nov 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.4;"> <div class="cert-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div> <div class="cert-details"> <h4>The Cybersecurity Threat Landscape</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> LinkedIn</div> <div class="skills-list"><strong>Skills:</strong> Cybersecurity, Threat Landscape Analysis</div> <div class="issuer">Issued: Nov 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.5;"> <div class="cert-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div> <div class="cert-details"> <h4>AI in Digital Marketing</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> Great Learning</div> <div class="skills-list"><strong>Skills:</strong> Artificial Intelligence, Online Marketing, Digital Marketing Strategy</div> <div class="issuer">Issued: Oct 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.6;"> <div class="cert-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div> <div class="cert-details"> <h4>ChatGPT for Coders</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> Great Learning</div> <div class="skills-list"><strong>Skills:</strong> ChatGPT, AI-assisted Coding, Prompting</div> <div class="issuer">Issued: Oct 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.7;"> <div class="cert-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div> <div class="cert-details"> <h4>Introduction to Ethical Hacking</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> Great Learning</div> <div class="skills-list"><strong>Skills:</strong> Ethical Hacking Methodology, Security Concepts</div> <div class="issuer">Issued: Oct 2024</div> </div> </article>
+                    <article class="cert-card" data-anim style="--anim-delay: 0.8;"> <div class="cert-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div> <div class="cert-details"> <h4>Prompt Engineering</h4> <div class="issuer"><i class="fas fa-building" aria-hidden="true"></i> Great Learning</div> <div class="skills-list"><strong>Skills:</strong> Prompt Engineering Techniques, LLM Interaction</div> <div class="issuer">Issued: Oct 2024</div> </div> </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title" data-section-title="Code_Manifest">Creations</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards (Same as before) -->
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.1;"> <h3><i class="fas fa-user-shield" aria-hidden="true"></i> Secure Telegram Bot</h3> <p>Engineered a privacy-centric Telegram bot utilizing robust AES encryption for secure file exchange. Implements UID-based whitelisting, broadcast functions, automated key handling, and transparent activity logging.</p> <div class="tags"> <span class="tag">Python</span> <span class="tag">Telegram API</span> <span class="tag">AES Encryption</span> <span class="tag">Cybersecurity</span> <span class="tag">Access Control</span> <span class="tag">Automation</span> </div> <div class="project-links"> <a href="https://github.com/anantbhardwaj-dev/Secure-Telegram-Bot" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Secure Telegram Bot GitHub Repository (opens in new tab)"><i class="fab fa-github"></i></a> </div> </article>
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.2;"> <h3><i class="fas fa-quote-left" aria-hidden="true"></i> Daily Quotes Generator</h3> <p>A sleek, dynamic quote generator delivering daily insights. Built with core web technologies, featuring adaptive Day/Night theming and deployed across resilient edge platforms.</p> <div class="tags"> <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span> <span class="tag">API</span> <span class="tag">Frontend</span> <span class="tag">Netlify</span> <span class="tag">Cloudflare</span> </div> <div class="project-links"> <a href="https://quote-snap.netlify.app" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Daily Quotes on Netlify (opens in new tab)"> <i class="fas fa-bolt"></i> <span>Netlify</span> </a> <a href="https://Quotes.anant-bhardwaj-dev.workers.dev" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Daily Quotes on Cloudflare (opens in new tab)"> <i class="fab fa-cloudflare"></i> <span>Cloudflare</span> </a> <a href="https://github.com/anantbhardwaj-dev/Daily-Quotes-Generator" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Daily Quotes GitHub Repository (opens in new tab)"><i class="fab fa-github"></i></a> </div> </article>
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.3;"> <h3><i class="fas fa-desktop" aria-hidden="true"></i> Developer Portfolio</h3> <p>Crafted this immersive, dark-themed portfolio experience (the site you're on!) using semantic HTML, advanced CSS, and performant JavaScript. Features dynamic content, fluid animations, glassmorphism, and adaptive design.</p> <div class="tags"> <span class="tag">HTML5</span> <span class="tag">CSS3</span> <span class="tag">JavaScript</span> <span class="tag">Responsive</span> <span class="tag">UI/UX</span> <span class="tag">Portfolio</span> <span class="tag">Glassmorphism</span> </div> <div class="project-links"> <a href="https://github.com/anantbhardwaj-dev/Portfolio-Website" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Portfolio Source Code on GitHub (opens in new tab)"><i class="fab fa-github"></i></a> <a href="#home" class="project-link" aria-label="Back to top of this site"><i class="fas fa-home"></i></a> </div> </article>
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.4;"> <h3><i class="fas fa-key" aria-hidden="true"></i> Python File Encryptor</h3> <p>A command-line utility forged in Python for AES-256 file encryption/decryption. Implements secure key derivation and management, offering a streamlined solution for safeguarding sensitive local data.</p> <div class="tags"> <span class="tag">Python</span> <span class="tag">CLI</span> <span class="tag">AES Encryption</span> <span class="tag">Cybersecurity</span> <span class="tag">Scripting</span> <span class="tag">Tooling</span> </div> <div class="project-links"> <a href="https://github.com/anantbhardwaj-dev/File-Encryptor" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Python File Encryptor GitHub Repository (opens in new tab)"><i class="fab fa-github"></i></a> </div> </article>
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.5;"> <h3><i class="fas fa-user-lock" aria-hidden="true"></i> Auth UI Mockups</h3> <p>Designed and implemented sophisticated, animated login & registration interfaces using pure HTML and CSS. Demonstrates mastery of frontend aesthetics, responsive layouts, and engaging micro-interactions.</p> <div class="tags"> <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">UI Design</span> <span class="tag">Frontend</span> <span class="tag">Animation</span> <span class="tag">Mockup</span> </div> <div class="project-links"> <a href="https://github.com/anantbhardwaj-dev/Auth-UI" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Auth UI GitHub Repository (opens in new tab)"><i class="fab fa-github"></i></a> </div> </article>
+                     <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.6;"> <h3><i class="fab fa-js-square" aria-hidden="true"></i> JavaScript Mini Tools</h3> <p>A curated collection of practical web utility applications built with vanilla JavaScript. Includes tools like interactive to-do lists and timers, demonstrating core JS concepts and effective DOM manipulation.</p> <div class="tags"> <span class="tag">JavaScript</span> <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">DOM</span> <span class="tag">Web Apps</span> <span class="tag">Utility</span> </div> <div class="project-links"> <a href="https://github.com/anantbhardwaj-dev/JavaScript-Mini-Tools" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="JavaScript Tools GitHub Repository (opens in new tab)"><i class="fab fa-github"></i></a> </div> </article>
+                    <article class="project-card" tabindex="0" data-anim style="--anim-delay: 0.7;"> <h3><i class="fas fa-film" aria-hidden="true"></i> VFX & 3D Explorations</h3> <p>Produced diverse short-form VFX sequences, motion graphics, and dynamic 3D logo animations utilizing Blender and Adobe After Effects. Explores creative boundaries in visual storytelling, compositing, and digital sculpting.</p> <div class="tags"> <span class="tag">Blender</span> <span class="tag">After Effects</span> <span class="tag">VFX</span> <span class="tag">3D Animation</span> <span class="tag">Motion Graphics</span> <span class="tag">Creative</span> </div> <div class="project-links"> <a href="https://instagram.com/anxntbhardwaj" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Creative Work on Instagram (opens in new tab)"><i class="fab fa-instagram"></i></a> <a href="https://youtube.com/@anxntbhardwaj" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Creative Work on YouTube (opens in new tab)"><i class="fab fa-youtube"></i></a> </div> </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Goals Section -->
+        <section id="goals" aria-labelledby="goals-title">
+            <div class="container">
+                <h2 id="goals-title" class="section-title" data-section-title="Future_Directives">Trajectory</h2>
+                <ul class="goals-list">
+                    <li data-anim style="--anim-delay: 0.1;"><i class="fas fa-user-shield" aria-hidden="true"></i> Ascend to the vanguard of offensive and defensive cybersecurity expertise.</li>
+                    <li data-anim style="--anim-delay: 0.2;"><i class="fas fa-flag-checkered" aria-hidden="true"></i> Contribute impactful solutions to national-level cybersecurity infrastructure.</li>
+                    <li data-anim style="--anim-delay: 0.3;"><i class="fas fa-cogs" aria-hidden="true"></i> Architect and deploy sophisticated, autonomous security systems and intelligence tools.</li>
+                    <li data-anim style="--anim-delay: 0.4;"><i class="fas fa-rocket" aria-hidden="true"></i> Pioneer innovative ventures at the intersection of security, code, and creativity.</li>
+                    <li data-anim style="--anim-delay: 0.5;"><i class="fas fa-infinity" aria-hidden="true"></i> Embrace perpetual evolution through mastery of emerging tech and design paradigms.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Discord Presence Section -->
+        <section id="discord-presence" aria-labelledby="discord-title">
+            <div class="container">
+                <h2 id="discord-title" class="section-title" data-section-title="Realtime_Status">Discord Presence</h2>
+                <div class="discord-card-container" data-anim style="--anim-delay: 0.1;">
+                    <div id="discord-widget" class="discord-card loading" aria-live="polite" aria-busy="true">
+                        <div class="discord-loading"><i class="fas fa-spinner fa-spin"></i> Syncing Presence...</div>
+                        <div class="discord-content" style="display: none;">
+                             <img id="discord-pfp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anant Bhardwaj Discord Profile Picture" class="discord-pfp" width="85" height="85">
+                             <div class="discord-info">
+                                 <div class="discord-user"><span id="discord-username"></span><span id="discord-discriminator"></span></div>
+                                 <div id="discord-status-text">Offline</div>
+                                 <div id="discord-activity"></div>
+                                 <div id="discord-badges"></div>
+                             </div>
+                        </div>
+                         <div class="discord-error" style="display: none;"><i class="fas fa-exclamation-triangle"></i> Connection Unstable.</div>
+                    </div>
+                     <p class="lanyard-attribution">Realtime status powered by <a href="https://github.com/Phineas/lanyard" target="_blank" rel="noopener noreferrer">Lanyard API</a></p>
+                </div>
+            </div>
+        </section>
+
+         <!-- Contact CTA Section -->
+        <section id="contact-cta" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title" data-section-title="Initiate_Link">Connect</h2>
+                <p data-anim style="--anim-delay: 0.1;">
+                    Engaging in groundbreaking projects, tackling complex security challenges, or exploring creative synergy? I'm actively seeking connections with fellow innovators and visionaries. Let's architect the future, together.
+                </p>
+                <a href="mailto:anant.bhardwaj.dev@gmail.com" class="cta-button" data-anim style="--anim-delay: 0.2;">
+                    <i class="fas fa-paper-plane"></i> Transmit Inquiry
+                </a>
+            </div>
+        </section>
+
+        <!-- Digital Presence Section -->
+        <section id="connect" aria-labelledby="connect-title">
+            <div class="container">
+                <h2 id="connect-title" class="section-title" data-section-title="Network_Nodes">Digital Footprint</h2>
+                <div class="connect-container" data-anim style="--anim-delay: 0.1;">
+                    <p class="common-handle" aria-label="Common username across platforms"><i class="fas fa-at"></i>anxntbhardwaj</p>
+                    <ul class="social-links-grid" aria-label="Social and Platform Links">
+                        <!-- Social Links -->
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.2;"><a href="https://github.com/anantbhardwaj-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)" class="social-icon-link github" data-platform="GitHub"><i class="fab fa-github"></i></a></li>
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.3;"><a href="https://linkedin.com/in/anantbhardwaj-dev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)" class="social-icon-link linkedin" data-platform="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.4;"><a href="mailto:anant.bhardwaj.dev@gmail.com" aria-label="Email" class="social-icon-link email" data-platform="Email"><i class="fas fa-envelope"></i></a></li>
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.5;"><a href="https://instagram.com/anxntbhardwaj" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)" class="social-icon-link instagram" data-platform="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.6;"><a href="https://t.me/anxntbhardwaj" target="_blank" rel="noopener noreferrer" aria-label="Telegram (opens in new tab)" class="social-icon-link telegram" data-platform="Telegram"><i class="fab fa-telegram"></i></a></li>
+                        <li class="social-link-item" data-anim style="--anim-delay: 0.7;"><a href="https://youtube.com/@anxntbhardwaj" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in new tab)" class="social-icon-link youtube" data-platform="YouTube"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <div class="platform-indicator" aria-hidden="true"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact-footer" role="contentinfo">
+        <div class="container">
+            <p class="copyright">
+                © <span id="current-year"></span> Anant Bhardwaj <span aria-hidden="true">•</span> Forged with <i class="fas fa-heart" aria-hidden="true"></i> Passion & Code
+                <br>
+                 <a href="https://github.com/anantbhardwaj-dev/Portfolio-Website" target="_blank" rel="noopener noreferrer" aria-label="View Source Code on GitHub (opens in new tab)">View Source <i class="fab fa-github"></i></a>
+                 <span style="opacity: 0.5; margin: 0 0.5em;"> | </span>
+                 <a href="#home" aria-label="Back to Top">^ Top</a>
+             </p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Strict Mode ---
+        'use strict';
+
+        // --- DOM Elements ---
+        const bodyElement = document.body;
+        const headerElement = document.getElementById('home');
+        const headerContent = headerElement?.querySelector('.header-content');
+        const headerCursor = headerElement?.querySelector('.terminal-cursor');
+        const taglineElement = headerElement?.querySelector('.tagline');
+
+        // --- Intersection Observer for Scroll Animations ---
+        const observerOptions = { root: null, rootMargin: '0px 0px -50px 0px', threshold: 0.1 };
+        const sectionObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    entry.target.querySelectorAll('[data-anim]').forEach(el => {
+                         const delay = parseFloat(el.style.getPropertyValue('--anim-delay') || '0.1');
+                         el.style.animationDelay = `${delay}s`;
+                    });
+                    // observer.unobserve(entry.target); // Optional: unobserve after first view
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('section, [data-anim]').forEach(el => { sectionObserver.observe(el); });
+
+        // --- Scroll Handling & Parallax ---
+        let lastScrollY = window.scrollY; let ticking = false;
+        function handleScroll() {
+            lastScrollY = window.scrollY;
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    bodyElement.classList.toggle('scrolled', lastScrollY > 50);
+                    if (headerContent && lastScrollY < window.innerHeight) {
+                        headerContent.style.transform = `translateY(${lastScrollY * 0.25}px)`;
+                    }
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        // --- Header Name Typing Effect ---
+        function typeHeaderEffect() {
+            const nameText = "Anant";
+            const surnameText = " Bhardwaj";
+            const h1Element = document.querySelector('header h1');
+            if (!h1Element) return;
+            const highlightSpan = h1Element.querySelector('.highlight');
+            if (!highlightSpan || !headerCursor) { console.warn("Header typing elements missing."); return; }
+
+            let surnameNode = headerCursor.previousSibling;
+            if (!surnameNode || surnameNode.nodeType !== Node.TEXT_NODE) {
+                surnameNode = document.createTextNode('');
+                h1Element.insertBefore(surnameNode, headerCursor);
+            }
+
+            let i = 0, j = 0;
+            highlightSpan.textContent = ''; surnameNode.textContent = '';
+
+            function typeName() {
+                if (i < nameText.length) {
+                    highlightSpan.textContent += nameText.charAt(i++);
+                    setTimeout(typeName, 100); // Speed
+                } else {
+                    setTimeout(typeSurname, 150); // Pause
+                }
+            }
+            function typeSurname() {
+                if (j < surnameText.length) {
+                    surnameNode.textContent += surnameText.charAt(j++);
+                    setTimeout(typeSurname, 70); // Speed
+                } else {
+                    if(headerCursor) {
+                        headerCursor.style.animation = 'blinkHeaderCursor 1s steps(1, end) infinite, fadeOutCursor 0.5s 2s forwards';
+                    }
+                    // Start tagline animation AFTER name is typed
+                    setTimeout(animateTagline, 500); // Pause before tagline starts
+                }
+            }
+            // Start typing name after a delay
+            setTimeout(typeName, 1200);
+        }
+
+        // --- Tagline Decode Animation ---
+        function animateTagline() {
+            const targetText = "CSE Student | Software Developer | Cybersecurity Enthusiast | VFX Artist";
+            if (!taglineElement) return;
+
+            taglineElement.textContent = ''; // Clear any previous content
+            taglineElement.classList.add('visible'); // Make container visible
+
+            const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-[]{};':\",./<>?|\\";
+            let currentText = "";
+            let charIndex = 0;
+
+            function decode() {
+                if (charIndex >= targetText.length) {
+                    // Ensure final text is correct
+                    taglineElement.innerHTML = targetText.split('').map(char => `<span class="char" style="opacity: 1;">${char}</span>`).join('');
+                    return; // Animation complete
+                }
+
+                const targetChar = targetText[charIndex];
+                let scrambleCount = 0;
+                const maxScrambles = 3; // How many random chars before settling
+
+                const scrambleInterval = setInterval(() => {
+                    if (scrambleCount >= maxScrambles) {
+                        clearInterval(scrambleInterval);
+                        currentText += targetChar; // Set the correct character
+                        taglineElement.innerHTML = currentText.split('').map(char => `<span class="char" style="opacity: 1;">${char}</span>`).join(''); // Update display with correct char
+                        charIndex++;
+                        // Slightly faster decode for next char
+                        setTimeout(decode, Math.random() * 20 + 10);
+                    } else {
+                        const randomChar = characters[Math.floor(Math.random() * characters.length)];
+                        // Display current correct text + the scrambling character
+                        taglineElement.innerHTML = currentText.split('').map(char => `<span class="char" style="opacity: 1;">${char}</span>`).join('') + `<span class="char placeholder">${randomChar}</span>`;
+                        scrambleCount++;
+                    }
+                }, 30); // Speed of scrambling effect
+            }
+
+            decode(); // Start the decoding process
+        }
+
+
+        // --- Lanyard Discord Presence ---
+        async function fetchDiscordPresence() {
+            const DISCORD_USER_ID = '1298358980741038182'; // Your ID
+            const widget = document.getElementById('discord-widget');
+            if (!widget) { console.error("Lanyard Error: #discord-widget missing."); return; }
+            const contentDiv = widget.querySelector('.discord-content'); const loadingDiv = widget.querySelector('.discord-loading'); const errorDiv = widget.querySelector('.discord-error'); const pfpElement = widget.querySelector('#discord-pfp'); const usernameElement = widget.querySelector('#discord-username'); const discriminatorElement = widget.querySelector('#discord-discriminator'); const statusTextElement = widget.querySelector('#discord-status-text'); const activityElement = widget.querySelector('#discord-activity'); const badgesElement = widget.querySelector('#discord-badges');
+            if (!contentDiv || !loadingDiv || !errorDiv || !pfpElement || !usernameElement || !discriminatorElement || !statusTextElement || !activityElement || !badgesElement) { console.error("Lanyard Error: Internal widget elements missing."); widget.classList.remove('loading'); widget.classList.add('error'); widget.setAttribute('aria-busy', 'false'); if(errorDiv) { errorDiv.style.display = 'flex'; errorDiv.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Widget Error.'; } if(loadingDiv) loadingDiv.style.display = 'none'; if(contentDiv) contentDiv.style.display = 'none'; return; }
+            const updateText = (el, txt) => { if (el && el.textContent !== txt) el.textContent = txt || ''; }; const updateHTML = (el, html) => { if (el && el.innerHTML !== html) el.innerHTML = html || ''; }; const updateAttr = (el, attr, val) => { if (el && el.getAttribute(attr) !== val) el.setAttribute(attr, val); }; const sanitize = (str) => { const temp = document.createElement('div'); temp.textContent = str || ''; return temp.innerHTML; };
+            const getBadgeHtml = (flags) => { if (!flags) return ''; let html = ''; const url = 'https://cdn.discordapp.com/badge-icons/'; const map = { 0:{h:'409a091644966d8e8698f7f4797f1040.png',t:'Staff'}, 1:{h:'95a19b74225e3908bf7f895e2053a3a6.png',t:'Partner'}, 2:{h:'e8368f1959a717c7a6106a04a77119d1.png',t:'Events'}, 3:{h:'bf01d10739a60841547436868fd80103.png',t:'Bug Hunter L1'}, 6:{h:'17483983d1446c646e966186806f8dca.png',t:'Bravery'}, 7:{h:'011940fd071566a633c3a6b8a16aba33.png',t:'Brilliance'}, 8:{h:'48cf03139a2364a3fe637d71e0f7599c.png',t:'Balance'}, 9:{h:'b952f9461a0f000a1670b0d74c59db53.png',t:'Early Supporter'}, 14:{h:'3f8781e3f8156c5d4235e74041bd56cb.png',t:'Bug Hunter L2'}, 17:{h:'5a7438700c4e31847dee12a1e7e08877.png',t:'Verified Dev'}, 18:{h:'6941f12806816a6751096b9e139979f4.png',t:'Mod'}, 22:{h:'9e8850e3d5e15080831a5f77f69f0c6e.png',t:'Active Dev'} }; for (const bit in map) { if (flags & (1 << bit)) { const { h, t } = map[bit]; html += `<img src="${url}${h}" alt="${t}" class="discord-badge" title="${t}">`; } } return html; };
+            try { const r = await fetch(`https://api.lanyard.rest/v1/users/${DISCORD_USER_ID}`); if (!r.ok) throw new Error(`API ${r.status}`); const d = await r.json(); if (!d.success || !d.data) throw new Error('Invalid data'); const data = d.data; widget.classList.remove('loading', 'error'); widget.setAttribute('aria-busy', 'false'); loadingDiv.style.display = 'none'; errorDiv.style.display = 'none'; contentDiv.style.display = 'flex'; const user = data.discord_user; const pfp = user.avatar; const defAv = (user.discriminator && user.discriminator !== '0') ? parseInt(user.discriminator) % 5 : 0; const pfpUrl = pfp ? `https://cdn.discordapp.com/avatars/${DISCORD_USER_ID}/${pfp}.${pfp.startsWith('a_') ? 'gif':'png'}?size=128` : `https://cdn.discordapp.com/embed/avatars/${defAv}.png`; updateAttr(pfpElement, 'src', pfpUrl); updateAttr(pfpElement, 'alt', `${user.global_name||user.username}'s PFP`); updateText(usernameElement, user.global_name||user.username); updateText(discriminatorElement, (user.discriminator && user.discriminator !== '0') ? `#${user.discriminator}`:''); const status = data.discord_status||'offline'; widget.className = widget.className.replace(/status-\w+/g, ''); widget.classList.add(`status-${status}`); let statusTxt = status[0].toUpperCase()+status.slice(1); if(status==='dnd') statusTxt='Do Not Disturb'; updateText(statusTextElement, statusTxt); let actHtml = ''; const act = data.activities?.find(a=>a.type!==4&&a.type!==2) || data.activities?.find(a=>a.type===2) || data.activities?.find(a=>a.type===4); if(act){ const name=sanitize(act.name); const details=sanitize(act.details); const state=sanitize(act.state); const emName=sanitize(act.emoji?.name); const emId=act.emoji?.id; const emAnim=act.emoji?.animated; const emHtml=emId?`<img src="https://cdn.discordapp.com/emojis/${emId}.${emAnim?'gif':'png'}?size=20" alt="${emName}" class="discord-activity-emoji">`:(emName?`<span class="discord-activity-emoji">${emName}</span> `:''); switch(act.type){ case 0:actHtml=`<strong>Playing:</strong> ${name}${details?` - ${details}`:''}${state?` (${state})`:''}`;break; case 1:actHtml=`<strong>Streaming:</strong> ${name}${details?` - ${details}`:''}`;break; case 2:actHtml=`<strong>Listening to ${name}:</strong>${details?` ${details}`:''}${state?` by ${state}`:''}`;break; case 3:actHtml=`<strong>Watching:</strong> ${name}${details?` - ${details}`:''}`;break; case 4:actHtml=`${emHtml}${state}`;break; default:actHtml=`<strong>${name}</strong>${details?`: ${details}`:''}`;}} updateHTML(activityElement, actHtml || (status !== 'offline' ? 'Idle' : '')); updateHTML(badgesElement, getBadgeHtml(user.public_flags)); } catch (e) { console.error('Lanyard Error:', e.message); widget.classList.remove('loading'); widget.classList.add('error'); widget.setAttribute('aria-busy', 'false'); loadingDiv.style.display = 'none'; contentDiv.style.display = 'none'; errorDiv.style.display = 'flex'; const icon = '<i class="fas fa-exclamation-triangle"></i> '; let msg = icon+'Status Unavailable.'; if(e.message.includes('404')) msg=icon+'User Not Found/Opt-out.'; else if(e.message.includes('429')) msg=icon+'API Rate Limited.'; else if(e.message.includes('Invalid data')) msg=icon+'API Data Error.'; updateHTML(errorDiv, msg); }
+        }
+
+        // --- Update Copyright Year ---
+        function updateCopyrightYear() {
+            const yearSpan = document.getElementById('current-year');
+            if (yearSpan) { yearSpan.textContent = new Date().getFullYear(); }
+        }
+
+        // --- Initial Setup ---
+        function initApp() {
+             updateCopyrightYear();
+             typeHeaderEffect(); // Start header name typing
+             // Tagline animation starts after header typing finishes
+             fetchDiscordPresence(); // Initial Discord fetch
+
+             handleScroll(); // Initial scroll check
+
+             setTimeout(() => bodyElement.classList.add('loaded'), 100); // Fade in body
+
+             const lanyardInterval = setInterval(fetchDiscordPresence, 30000); // Update Discord status
+             window.addEventListener('beforeunload', () => clearInterval(lanyardInterval));
+        }
+
+        // --- Run ---
+        if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initApp); }
+        else { initApp(); }
+
+    </script>
+</body>
+</html>
